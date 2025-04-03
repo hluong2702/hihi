@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="containerLogin">
+        <div class="backgroundShadow">
+            <div class="mainBackgroundShadow">
+                <div class="textHeader">
+                    <p class="textLogin">Đăng ký tài khoản</p>
+                </div>
+                <form class="formLogin" id="registerForm">
+                    <input type="text" placeholder="Tên đăng nhập" class="inputLogin" id="email">
+                    <div class="error-message" id="emailError" style="color: red;"></div>
+                    <br>
+                    <input type="password" placeholder="Mật khẩu" class="enterPasswordLogin" id="password">
+                    <div class="error-message" id="passwordError" style="color: red;"></div>
+                    <br>
+                    <input type="password" placeholder="Xác nhận mật khẩu" class="enterPasswordLogin" id="confirmPassword">
+                    <div class="error-message" id="confirmPasswordError" style="color: red;"></div>
+                    <br>
+                    <button type="submit" class="buttonLogin">Đăng ký</button>
+                </form>
+                <div class="nextToRegister">
+                    <p class="text">Đã có tài khoản?</p>
+                    <p class="link"><a href="">Đăng nhập</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>

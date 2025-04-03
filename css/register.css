@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.containerLogin {
+    background-color: #F3F4F6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundShadow {
+    width: 448px;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textHeader{
+font-weight: 400;
+font-size: 18.2812px;
+line-height: 28px;
+color: #000000;
+margin-bottom: 16px;
+}
+
+.textLogin{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLogin{
+width: 400px;
+height: 42px;
+padding: 9px;
+
+background: #FFFFFF;
+border: 1px solid #E5E7EB;
+border-radius: 4px;
+
+}
+
+.enterPasswordLogin{
+    width: 400px;
+height: 42px;
+top: 58px;
+margin-top: 16px;
+
+background: #FFFFFF;
+border: 1px solid #E5E7EB;
+border-radius: 4px;
+padding: 9px;
+
+}
+
+.formLogin{
+    width: 400;
+    height: 156;
+    top: 68px;
+    left: 24px;
+
+}
+
+.buttonLogin{
+width: 400px;
+height: 40px;
+top: 116px;
+border-radius: 4px;
+border: 1px solid #16A34A ;
+background-color:#16A34A;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15.75px;
+line-height: 24px;
+color: #FFFFFF;
+margin-top: 16px;
+cursor: pointer;
+
+}
+
+.nextToRegister{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 3px;
+margin-top: 16px;
+}
+p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.text{
+width: 125.61000061035156;
+height: 20;
+top: 240px;
+left: 118.75px;
+font-family: "Segoe UI Symbol";
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #000000;
+
+}
+
+.link{
+font-family: "Roboto";
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.link a {
+    text-decoration: none;
+}
+
+
+
+
