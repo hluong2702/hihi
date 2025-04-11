@@ -34,6 +34,7 @@ font-size: 18.2812px;
 line-height: 28px;
 color: #000000;
 margin-bottom: 16px;
+margin-top: 24px;
 }
 
 .textLogin{
@@ -100,6 +101,7 @@ justify-content: center;
 align-items: center;
 gap: 3px;
 margin-top: 16px;
+margin-bottom: 24px;
 }
 p{
     display: flex;
@@ -114,7 +116,6 @@ width: 125.61000061035156;
 height: 20;
 top: 240px;
 left: 118.75px;
-font-family: "Segoe UI Symbol";
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;

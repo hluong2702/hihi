@@ -34,6 +34,10 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     localStorage.setItem("isLoggedIn", "true");
     localStorage.setItem("currentUser", JSON.stringify(user));
 
-    alert("Đăng nhập thành công!");
-    window.location.href = "../index.html";
+    Swal.fire({
+        title: "Đăng nhập thành công!",
+        icon: "success",
+        draggable: true
+      });
+    window.location.href = "../pages/home.html";
 });

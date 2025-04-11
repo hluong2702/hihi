@@ -199,30 +199,19 @@ left: 24px;
 border-radius: 12px;
 background-color: #FFFFFF;
 margin-top: 24px;
-font-family: 'Roboto', sans-serif;
-border: 1px solid black;
-align-items: center;
-display: flex;
-justify-content: center;
-flex-direction: column;
-}
-
-.categoryManagement span{
-    padding: 24px;
-    
 
 }
 
-.categoryManagement div{
+.categoryManagement form{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    margin-bottom: 24px;
+    padding: 8px 24px 24px;
 
 }
 
-.categoryManagement div input{
+.categoryManagement form input{
     width: 246.4199981689453px;
     height: 42px;
     border-radius: 6px;
@@ -230,7 +219,7 @@ flex-direction: column;
 
 }
 
-.categoryManagement div button{
+.categoryManagement form button{
     width: 163.16000366210938px;
     height: 42px;
     border-radius: 6px;
@@ -240,6 +229,15 @@ flex-direction: column;
 
 }
 
+.categoryManagement p{
+    display: flex;
+    margin-left: 24px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+}
 /* Thêm chi tiêu */
 .addSpending{
     width: 720px;
@@ -274,16 +272,16 @@ flex-direction: column;
 
 }
 
-.categoryManagement p{
-    display: flex;
-    margin-left: 24px;
-    margin-bottom: 8px;
-    font-family: "Segoe UI Symbol";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+.addSpending select{
+    width: 150px;
+    height: 42px;
+    border-radius: 6px;
+    border-width: 1px;
+    border: 1px solid #DEE2E6;
+    background-color: #EFEFEF;
 
 }
+
 /* Lịch sử giao dịch */
 
 .transactionHistory{
@@ -332,7 +330,7 @@ border: 1px solid #DEE2E6;
 
 
 /* Cảnh báo */
-.error{
+#error{
     background-color: #FFFFFF;
     width: 720px;
     height: 68px;
@@ -340,19 +338,16 @@ border: 1px solid #DEE2E6;
     left: 24px;
     border-radius: 12px;
     margin-top: 24px;
-}
-
-.error p{
     color: #DC2626;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-text-align: start;
-padding: 24px;
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-align: start;
+    padding: 24px;
 }
+
 
 /* Thống kê chi tiêu */
 .statisticsSpending{
@@ -399,3 +394,107 @@ footer{
 }
 
 
+/* Chức năng thêm */
+ul {
+    list-style-type: none;
+    padding: 0 24px 24px;
+}
+
+li {
+    background-color: white;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+#listCategory li .function {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+#listCategory li .categoryhihi {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#pagination .page-item {
+    margin: 0 5px;
+}
+
+#pagination .page-link {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+#pagination .page-link:hover {
+    background-color: #f8f9fa;
+}
+
+#searchInput{
+    padding: 20px;
+    color: black;
+}
+
+.editCategory{
+    color: #DC2626;
+}
+
+.deleteCategory{
+    color: #DC2626;
+}
+
+.deleteHistory {
+    color: #dc3545;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+}
+
+.textDeleteHistory{
+font-weight: 400;
+font-size: 13.78px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+}
+
+#transactionList {
+    margin-bottom: 10px;
+}
+
+#transactionList li {
+    padding: 8px 0 0px 0;
+    border-bottom: 1px solid gray; 
+    line-height: 1.2;
+}
+
+#transactionList p {
+    margin: 0; 
+}
